@@ -1,0 +1,19 @@
+{
+  "name": "Giveaway-Bot-master",
+  "version": "1.0.0",
+  "description": "Bot by Insane Eagle",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Insane Eagle",
+  "license": "Apache 2.0",
+  "dependencies": {
+    "beautify": "0.0.8",
+    "discord-giveaways": "^4.5.1",
+    "discord.js": "^12.5.3",
+    "express": "^4.17.1",
+    "ms": "^2.1.3"
+  }
+}
