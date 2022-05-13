@@ -17,7 +17,7 @@ module.exports.run = async (client, message, args) => {
     let cores = os.cpus().length;
 
     let stats = new Discord.MessageEmbed()
-    .setAuthor('<@885087163807572018> (`! NXT_INSANE_EAGLE#5653`)')
+    .setAuthor("Made by Nxtlve Development")
     .setTitle(`<:server_stats:973823244870238230> Statistics of ${client.user.username}`)
     .setColor('RED')
     .addField("Server Count", `${servercount}`, true)
@@ -32,7 +32,6 @@ module.exports.run = async (client, message, args) => {
     .setFooter(`${message.author.tag}`, message.author.displayAvatarURL());
     message.channel.send(stats);
 };
-
 module.exports.help = {
     name: "stats"
 }

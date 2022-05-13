@@ -1,7 +1,5 @@
 module.exports = (client) => {
-  console.log(
-    `${client.user.tag} Is Ready to serve Giveaway's in ${client.channels.cache.size} channels on ${client.guilds.cache.size} servers, for a total of ${client.users.cache.size} users.`
-  );
+console.log((`Successfully Logged In As ${client.user.tag}\n\n`));
 
   const activities = [`Giveaways in ${client.guilds.cache.size} guilds`,"g.help",`over ${client.users.cache.size} users!`];
   setInterval(() => {
