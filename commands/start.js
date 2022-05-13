@@ -50,7 +50,7 @@ exports.run = async (client, message, args) => {
             giveaway: (client.config.everyoneMention ? "@everyone\n\n" : "")+"<a:Tada:973843115486093332> **GIVEAWAY** <a:Tada:973843115486093332>",
             giveawayEnded: (client.config.everyoneMention ? "@everyone\n\n" : "")+"<a:Tada:973843115486093332> **GIVEAWAY ENDED** <a:Tada:973843115486093332>",
             timeRemaining: "Time remaining: **{duration}**!",
-            inviteToParticipate: "React with <a:Tada:973843115486093332> to participate!",
+            inviteToParticipate: "React with 🎉 to participate!",
             winMessage: "Congratulations, {winners}! You won **{prize}**!",
             embedFooter: "Giveaways",
             noWinner: "Giveaway cancelled, no valid participations.",

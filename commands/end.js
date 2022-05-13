@@ -31,7 +31,7 @@ exports.run = async (client, message, args) => {
     // Success message
     .then(() => {
         // Success message
-        message.channel.send('<a:tick:965248158739365918> Giveaway will end in less than '+(client.giveawaysManager.options.updateCountdownEvery/1000)+' seconds...');
+        message.channel.send('<a:reloading:973493439071150090> Giveaway will end in less than '+(client.giveawaysManager.options.updateCountdownEvery/1000)+' seconds...');
     })
     .catch((e) => {
         if(e.startsWith(`<a:across:964534449284972585> Giveaway with message ID ${giveaway.messageID} is already ended.`)){
